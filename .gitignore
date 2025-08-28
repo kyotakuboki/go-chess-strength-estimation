@@ -1,0 +1,20 @@
+# Python
+.venv/
+chess/chess_env/
+go/go_env/
+
+# Outputs / caches
+results/
+
+# Data & weights
+**/training/*
+**/testing/*
+**/testing_by_player/*
+**/candidating/*
+chess/lc0/
+chess/pybind/
+**/削除用.ipynb
+memo.md
+test.py
+
+
