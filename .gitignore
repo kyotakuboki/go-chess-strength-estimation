@@ -1,5 +1,6 @@
 # Python
 .venv/
+dev/
 chess/chess_env/
 go/go_env/
 
@@ -7,10 +8,10 @@ go/go_env/
 results/
 
 # Data & weights
-**/training/*
-**/testing/*
-**/testing_by_player/*
-**/candidating/*
+**/training/*.csv
+**/testing/*.csv
+**/testing_by_player/*.csv
+**/candidating/*.csv
 chess/lc0/
 chess/pybind/
 **/削除用.ipynb

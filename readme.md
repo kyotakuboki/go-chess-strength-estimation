@@ -67,7 +67,7 @@ pip install -r requirements.txt
 ```
 
 Main dependencies:
-- Python 3.10+
+- Python 3.10-3.12
 - LightGBM, NumPy, Pandas
 - (External engines/models are **not** bundled; see below)
 
@@ -98,6 +98,12 @@ We use public datasets:
 
 Selection criteria follow the paper (e.g., minimum plies, valid terminations, both players in the same rank/rating group).  
 Place raw downloads under the respective game directory before Step 1.
+
+### Pre-split data included in this repository
+This repository includes the pre-split data (Go / Chess training/, candidating/, testing/, testing_by_player) actually used in this experiment.
+
+If you wish to use this data, skip Usage → Step 1 (Select Game Records) and proceed to the next step.
+
 
 ---
 
